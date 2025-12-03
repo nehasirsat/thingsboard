@@ -1565,6 +1565,73 @@
           "row" : 0,
           "col" : 0,
           "id" : "5c524e3d-f38f-042e-b1db-253fd329e1ff"
+        },
+        "185d16ad-8d68-455c-c084-54da53abc2ce" : {
+          "typeFullFqn" : "tenant.my_widget_2",
+          "type" : "latest",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "cada2eb0-ce74-11f0-9612-bb8e402def4c",
+              "dataKeys" : [ {
+                "name" : "state",
+                "type" : "timeseries",
+                "label" : "state",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.17987754178191484
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1764668454412,
+                  "endTimeMs" : 1764754854412
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Attributes card",
+            "decimals" : null,
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "185d16ad-8d68-455c-c084-54da53abc2ce"
         }
       },
       "states" : {
@@ -1612,6 +1679,12 @@
                   "sizeY" : 3,
                   "row" : 10,
                   "col" : 10
+                },
+                "185d16ad-8d68-455c-c084-54da53abc2ce" : {
+                  "sizeX" : 7,
+                  "sizeY" : 5,
+                  "row" : 5,
+                  "col" : 1
                 }
               },
               "gridSettings" : {
