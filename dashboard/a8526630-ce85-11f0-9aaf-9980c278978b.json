@@ -796,13 +796,13 @@
                   "col" : 8
                 },
                 "185d16ad-8d68-455c-c084-54da53abc2ce" : {
-                  "sizeX" : 6,
-                  "sizeY" : 6,
+                  "sizeX" : 8,
+                  "sizeY" : 5,
                   "row" : 5,
                   "col" : 0
                 },
                 "c15900a4-285c-a20a-6e1d-f8b9def9256a" : {
-                  "sizeX" : 9,
+                  "sizeX" : 10,
                   "sizeY" : 5,
                   "row" : 5,
                   "col" : 8
@@ -832,10 +832,10 @@
             "defaultStateEntity" : null,
             "rootEntity" : {
               "entityType" : "ASSET",
-              "id" : "ddfb4b00-d0ef-11f0-bca5-314dea115e70"
+              "id" : "96203990-d0f3-11f0-bca5-314dea115e70"
             },
             "direction" : "FROM",
-            "maxLevel" : 5,
+            "maxLevel" : 1,
             "fetchLastLevelOnly" : false,
             "filters" : [ ]
           }
