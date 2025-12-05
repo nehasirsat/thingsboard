@@ -17,7 +17,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "cada2eb0-ce74-11f0-9612-bb8e402def4c",
+              "deviceId" : "b13c58a0-d1a0-11f0-bca5-314dea115e70",
               "dataKeys" : [ {
                 "name" : "temperature",
                 "type" : "timeseries",
@@ -440,7 +440,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "cada2eb0-ce74-11f0-9612-bb8e402def4c",
+              "deviceId" : "b13c58a0-d1a0-11f0-bca5-314dea115e70",
               "dataKeys" : [ {
                 "name" : "temperature",
                 "type" : "timeseries",
@@ -639,7 +639,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "cada2eb0-ce74-11f0-9612-bb8e402def4c",
+              "deviceId" : "b13c58a0-d1a0-11f0-bca5-314dea115e70",
               "dataKeys" : [ {
                 "name" : "state",
                 "type" : "timeseries",
